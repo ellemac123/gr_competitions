@@ -23,3 +23,13 @@ pip install -r requirements.txt
 ## Requirements
 
 Creating a Django application that uses Python, Playwrite, and Celery to interact with Goodreads
+
+
+## Running the application
+
+localhost:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
